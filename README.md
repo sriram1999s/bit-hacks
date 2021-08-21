@@ -8,6 +8,9 @@ A compilation of bit hacks for computation.
 - [Finding min of 2 integers](#Min)
 - [Fast modulo](#Mod)
 - [Check if pow of 2](#Pow2)
+- [Check if number is odd/even](#OddEven)
+- [Set ith bit](#Setting ith Bit)
+- [Unset ith bit](#Unsetting ith Bit)
 
 ## Swap  
  To swap integers x and y.
@@ -32,4 +35,21 @@ res = z - (n & -(z >= n));
 To check if x is pow of 2.
 ```cpp
 if(!(x & (x - 1))) cout << "Pow of 2\n";
+```
+
+## OddEven
+To check if x is odd/even.
+```cpp
+if(x&1) cout << "Odd!\n";
+else cout << "Even!\n";
+```
+
+## Setting ith Bit
+```cpp
+x = (1<<i) | x;
+```
+
+## Unsetting a Bit
+```cpp
+x = !(1<<i) & x;
 ```
