@@ -9,8 +9,8 @@ A compilation of bit hacks for computation.
 - [Fast modulo](#Mod)
 - [Check if pow of 2](#Pow2)
 - [Check if number is odd/even](#OddEven)
-- [Set ith bit](#Setting ith Bit)
-- [Unset ith bit](#Unsetting ith Bit)
+- [Set ith bit](#Setting-ith-Bit)
+- [Unset ith bit](#Unsetting-ith-Bit)
 
 ## Swap  
  To swap integers x and y.
